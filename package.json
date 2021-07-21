@@ -1,0 +1,71 @@
+{
+  "name": "donatello",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "14.17.0",
+    "yarn": "1.22.10"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:coverage": "jest --coverage --watchAll=false",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.0",
+    "next": "11.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.9.0",
+    "react-redux": "^7.2.4",
+    "styled-components": "^5.3.0",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.0.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@types/react": "17.0.11",
+    "babel-jest": "^27.0.5",
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.0",
+    "husky": "^6.0.0",
+    "jest": "^27.0.5",
+    "jest-dom": "^4.0.0",
+    "typescript": "4.3.4"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "jest": {
+    "verbose": true,
+    "setupFilesAfterEnv": [
+      "<rootDir>/tests/setupTests.js"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/.next/",
+      "<rootDir>/node_modules/"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest"
+    },
+    "collectCoverageFrom": [
+      "pages/**/*.{js,jsx,ts,tsx}",
+      "components/**/*.{js,jsx,ts,tsx}",
+      "!pages/_app.tsx"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 70,
+        "functions": 70,
+        "lines": 70,
+        "statements": 70
+      }
+    },
+    "testEnvironment": "jsdom"
+  }
+}
