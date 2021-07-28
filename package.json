@@ -1,5 +1,5 @@
 {
-  "name": "donatello",
+  "name": "chempopet",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -55,9 +55,9 @@
       "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest"
     },
     "collectCoverageFrom": [
-      "pages/**/*.{js,jsx,ts,tsx}",
-      "components/**/*.{js,jsx,ts,tsx}",
-      "!pages/_app.tsx"
+      "src/pages/**/*.{js,jsx,ts,tsx}",
+      "src/components/**/*.{js,jsx,ts,tsx}",
+      "!src/pages/_app.tsx"
     ],
     "coverageThreshold": {
       "global": {
