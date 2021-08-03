@@ -1,11 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import Home from '../pages/index';
+import { render } from '@testing-library/react';
+import Home from '@pages/index';
 
 describe('Home', () => {
-  it('renders without crashing', () => {
-    render(<Home />);
-    expect(
-      screen.getByRole('heading', { name: 'Donatello' })
-    ).toBeInTheDocument();
+  it('renders home', () => {
+    const { container } = render(<Home />);
+    expect(container.querySelector('#title')).toHaveTextContent('Chempopet');
   });
 });
