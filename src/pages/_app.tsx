@@ -1,5 +1,7 @@
 import { Provider } from 'react-redux';
 import { useStore } from '../hooks/store';
+import '@styles/reset.css';
+import '@styles/styles.css';
 
 import type { AppProps } from 'next/app';
 

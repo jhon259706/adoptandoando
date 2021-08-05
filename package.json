@@ -1,5 +1,5 @@
 {
-  "name": "donatello",
+  "name": "chempopet",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -41,32 +41,5 @@
   },
   "resolutions": {
     "styled-components": "^5"
-  },
-  "jest": {
-    "verbose": true,
-    "setupFilesAfterEnv": [
-      "<rootDir>/tests/setupTests.js"
-    ],
-    "testPathIgnorePatterns": [
-      "<rootDir>/.next/",
-      "<rootDir>/node_modules/"
-    ],
-    "transform": {
-      "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest"
-    },
-    "collectCoverageFrom": [
-      "pages/**/*.{js,jsx,ts,tsx}",
-      "components/**/*.{js,jsx,ts,tsx}",
-      "!pages/_app.tsx"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 70,
-        "functions": 70,
-        "lines": 70,
-        "statements": 70
-      }
-    },
-    "testEnvironment": "jsdom"
   }
 }
