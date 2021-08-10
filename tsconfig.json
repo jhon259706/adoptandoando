@@ -16,9 +16,10 @@
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],
-      "@styles/*": ["/src/styles/*"],
-      "@tests/*": ["/src/tests/*"],
-      "@pages/*": ["/src/pages/*"]
+      "@styles/*": ["src/styles/*"],
+      "@tests/*": ["src/tests/*"],
+      "@pages/*": ["src/pages/*"],
+      "@public/*": ["public/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"],

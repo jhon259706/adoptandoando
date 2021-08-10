@@ -3,7 +3,9 @@ import Home from '@pages/index';
 
 describe('Home', () => {
   it('renders home', () => {
-    const { container } = render(<Home />);
+    const { container, asFragment } = render(<Home />);
+
+    expect(asFragment()).toMatchSnapshot();
     expect(container.querySelector('#title')).toHaveTextContent('Chempopet');
   });
 });
