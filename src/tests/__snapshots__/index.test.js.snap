@@ -9,10 +9,10 @@ exports[`Home renders home 1`] = `
       Chempopet
     </h1>
     <div
-      class="sc-bdnxRM uJxmM"
+      class="sc-bdnxRM hUNmRu"
     >
       <div
-        class="sc-dlnjwi fLTDVp"
+        class="sc-jSFjdj iIMsiI"
       >
         <div
           style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
@@ -38,11 +38,22 @@ exports[`Home renders home 1`] = `
         </div>
       </div>
       <div
-        class="sc-gtsrHT bukQdH"
+        class="sc-gtsrHT cuyRcv"
       >
-        <p>
-          ÚNETE A CHEMPOPET Creemos en un mundo mejor
-        </p>
+        <div
+          class="sc-dlnjwi bPagKz"
+        >
+          <header
+            class="sc-hKFxyN bmDJH"
+          >
+            ÚNETE A CHEMPOPET
+          </header>
+          <p
+            class="sc-eCApnc ghUIxW"
+          >
+            Creemos en un mundo mejor
+          </p>
+        </div>
       </div>
     </div>
   </div>

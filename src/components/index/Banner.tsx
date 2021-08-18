@@ -12,9 +12,12 @@ const Banner = () => {
           height={520}
         />
       </S.BannerImg>
-      <S.BannerTitle>
-        <p>ÚNETE A CHEMPOPET Creemos en un mundo mejor</p>
-      </S.BannerTitle>
+      <S.BannerTitleContainer>
+        <S.BannerTitle>
+          <S.BannerHeader>ÚNETE A CHEMPOPET</S.BannerHeader>
+          <S.BannerSlogan>Creemos en un mundo mejor</S.BannerSlogan>
+        </S.BannerTitle>
+      </S.BannerTitleContainer>
     </S.BannerDiv>
   );
 };
