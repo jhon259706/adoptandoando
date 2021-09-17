@@ -56,6 +56,62 @@ exports[`Home renders home 1`] = `
         </div>
       </div>
     </div>
+    <div
+      class="sc-gKAaRy dgUsMw"
+    >
+      <div
+        class="sc-iCoGMd exkODB"
+      >
+        <div
+          style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+        >
+          <div
+            style="display: block; box-sizing: border-box; padding-top: 66.66666666666666%;"
+          />
+          <noscript />
+          <img
+            alt="About Us image"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+        </div>
+        <header
+          class="sc-jrsJWt ccqFYb"
+        >
+          SOBRE CHEMPOPET
+        </header>
+      </div>
+      <div
+        class="sc-fujyAs eUfuJa"
+      >
+        <div
+          class="sc-crzoAE hOMyWR"
+        >
+          <header
+            class="sc-pNWdM hNbRHJ"
+          >
+            SOBRE CHEMPOPET
+          </header>
+          <p
+            class="sc-kEqXSa cnepoE"
+          >
+            Establecido(a) en el año 2000
+          </p>
+          <p
+            class="sc-iqAclL bIxjTv"
+          >
+            Como un(a) Organización de rescate de mascotas líder, nuestros proyectos y campañas son reconocidos en todo el mundo. Trabajamos para unir a personas de todas las edades y orígenes que comparten la creencia de un mundo en el que los animales están libres de tratos crueles e inhumanos. ChempoPet está dirigido por miembros para sus miembros, ofreciendo una voz unida para todos aquellos que quieran formar parte.
+          </p>
+        </div>
+      </div>
+      <button
+        class="sc-dIsUp hrGboS"
+        href="/"
+      >
+        Contacto
+      </button>
+    </div>
   </div>
 </DocumentFragment>
 `;
