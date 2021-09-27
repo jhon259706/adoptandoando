@@ -7,7 +7,7 @@ const AboutUs = () => {
     <S.AboutUsDiv>
       <S.AboutUsImg>
         <Image
-          src={'/banner.jpg'}
+          src={'/assets/images/banner.jpg'}
           alt="About Us image"
           width={780}
           height={520}
