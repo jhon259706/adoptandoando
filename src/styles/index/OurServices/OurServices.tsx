@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const OurServicesSection = styled.section`
   text-align: center;
+  padding-top: 40px;
 
   @media ${device.tabletS} {
     justify-content: center;
@@ -29,7 +30,7 @@ export const OurServicesSection = styled.section`
         flex-direction: row;
         gap: 10px;
         align-items: stretch;
-        font-size: 4rem;
+        font-size: 2rem;
       }
     }
   }

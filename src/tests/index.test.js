@@ -1,10 +1,10 @@
-import { render } from '@testing-library/react';
 import Home from '@pages/index';
+import { render } from '@tests/test-utils';
 
 describe('Home', () => {
   it('renders home', () => {
+    render;
     const { container, asFragment } = render(<Home />);
-
     expect(asFragment()).toMatchSnapshot();
     expect(container.querySelector('#title')).toHaveTextContent('Chempopet');
   });

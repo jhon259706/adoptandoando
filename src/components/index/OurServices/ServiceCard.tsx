@@ -15,7 +15,8 @@ const ServiceCard = (props: ICardProps) => {
     <S.ServiceCardDiv backgroundColor={backgroundColor}>
       <Image src={imageSrc} alt="Service Card Image" width={500} height={460} />
       <div className="card__description">
-        <h2>{title}</h2>
+        <h4>{title}</h4>
+        <br />
         <p>{description}</p>
       </div>
     </S.ServiceCardDiv>

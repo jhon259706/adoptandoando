@@ -25,6 +25,7 @@ module.exports = async () => {
       '^@pages/(.*)$': '<rootDir>/src/pages/$1',
       '^@components/(.*)$': '<rootDir>/src/components/$1',
       '^@styles/(.*)$': '<rootDir>/src/styles/$1',
+      '^@tests/(.*)$': '<rootDir>/src/tests/$1',
     },
   };
 };
