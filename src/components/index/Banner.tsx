@@ -6,7 +6,7 @@ const Banner = () => {
     <S.BannerDiv>
       <S.BannerImg>
         <Image
-          src={'/banner.jpg'}
+          src={'/assets/images/banner.jpg'}
           alt="Banner image"
           width={780}
           height={520}
