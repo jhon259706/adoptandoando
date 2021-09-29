@@ -2,10 +2,6 @@ import * as S from '@styles/index/OurServices/OurServices';
 import ServiceCard from './ServiceCard';
 
 const OurServices = () => {
-  const services = ourServices.map((service) => (
-    <ServiceCard key={service.id} {...service} />
-  ));
-
   return (
     <S.OurServicesSection>
       <header className="ourservices__header">NUESTROS SERVICIOS</header>
@@ -38,5 +34,9 @@ const ourServices = [
     backgroundColor: '#2e5eaf',
   },
 ];
+
+const services = ourServices.map((service) => (
+  <ServiceCard key={service.id} {...service} />
+));
 
 export default OurServices;
