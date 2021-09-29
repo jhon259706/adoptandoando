@@ -31,6 +31,7 @@ export const OurServicesSection = styled.section`
         gap: 10px;
         align-items: stretch;
         font-size: 2rem;
+        justify-content: space-between;
       }
     }
   }
